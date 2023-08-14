@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "incremental": true,
+    "paths": {
+      "@/*": ["./*"]
+    }
+  },
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "pages/teacher/profile/profile.jsx", "pages/teacher/index.jsx", "pages/admin/teachers/index.jsx", "pages/admin/statistics.jsx", "pages/auth/login.jsx", "pages/student/scores.jsx", "pages/admin/students/[studentId].jsx", "pages/teacher/tickets.jsx", "components/Dashboard/Layout/Header.tsx", "pages/admin/courses/course-unit/[courseUnitId].jsx", "pages/admin/courses/course-unit/scenario-of-unit/[scenarioUnitId].jsx", "pages/admin/courses/index.jsx", "pages/admin/schools/[schoolId].jsx", "pages/admin/teachers/[teacherId].jsx"],
+  "exclude": ["node_modules"]
+}

@@ -1,0 +1,364 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities; 
+
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.hide-scrollbar {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+.ani__slideF {
+  animation: slideF 1s ease 0s 1 normal forwards;
+}
+
+@keyframes slideF {
+  0% {
+    opacity: 0;
+    transform: translateX(-250px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+/* @layer base {
+  body {
+    @apply bg-gray-100;
+  }
+} */
+
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap");
+
+.black {
+  background-color: #1e1e1e;
+}
+
+.height-100 {
+  height: 100vh;
+}
+
+.linkstyle {
+  text-decoration: none;
+}
+
+.lbutton {
+  /* display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; */
+  padding: 10.0457px;
+  gap: 13.05px;
+  background: #45484e;
+  color: white;
+  border-radius: 10.4366px;
+}
+
+.lcent {
+  display: flex;
+  flex-direction: column;
+  height: 70vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.lcent2 {
+  display: flex;
+  flex-direction: column;
+  height: 99vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.ltext {
+  font-family: "Nirmala UI";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 42.26px;
+  line-height: 56px;
+  text-transform: capitalize;
+  color: #35363a;
+}
+
+.lforget {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16.75px;
+  line-height: 120%;
+  color: #ef5da8;
+  text-decoration: none;
+}
+
+.lwidth {
+  width: 70% !important;
+}
+
+.circle1 {
+  position: absolute;
+  width: 587px;
+  height: 484px;
+  left: 190px;
+  top: -336px;
+  border: 2px solid #fafafa;
+}
+.dFlex {
+  display: flex;
+  justify-content: space-between;
+}
+@media (max-width: 768px) {
+  .dinput {
+    /* position: absolute; */
+    width: 360px !important;
+    margin-top: 2rem;
+  }
+  .btn-black {
+    margin-left: 5rem !important;
+  }
+  .ctext2 {
+    font-family: "Nirmala UI";
+    font-style: normal;
+    font-weight: 350;
+    font-size: 20px;
+    line-height: 30px !important;
+    color: #2e303d;
+  }
+  .tableW {
+    width: 140% !important;
+  }
+  .dtext {
+    font-family: "Nirmala UI";
+    font-style: normal;
+    font-weight: 350;
+    font-size: 25.2632px !important;
+    line-height: 56px;
+  }
+  .ltext {
+    font-size: 25.26px;
+  }
+
+  .lwidth {
+    width: 80%;
+  }
+
+  .dNone {
+    display: none;
+  }
+  .bg-ad {
+    margin-left: 0rem !important;
+    margin-top: 2rem !important;
+  }
+}
+
+.dtext {
+  font-family: "Nirmala UI";
+  font-style: normal;
+  font-weight: 350;
+  font-size: 30.2632px;
+  line-height: 56px;
+}
+
+.dinput {
+  /* position: absolute; */
+  width: 455px;
+  height: 50px;
+  border-radius: 10px;
+  background-color: #ecf3fe;
+  /* background-image: url("../images/MagnifyingGlass (1).png");
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px; */
+}
+
+.input-wrapper {
+  position: relative;
+}
+
+.in {
+  border: 1px solid gray;
+  border-radius: 6px;
+  position: relative;
+  width: 200px;
+  margin: 10px;
+  padding-left: 10px;
+  line-height: 6ex;
+}
+
+.la {
+  position: absolute;
+  top: 0.2ex;
+  z-index: 1;
+  left: 2em;
+  background-color: white;
+  padding: 0 5px;
+}
+
+.card-bg {
+  background: url("/Frame 20.png") no-repeat center center/cover;
+  width: 371px;
+  height: 215px;
+  border-radius: 10px;
+}
+
+.dctext {
+  font-family: "Nirmala UI";
+  font-style: normal;
+  font-weight: 350;
+  font-size: 25.5389px;
+  line-height: 34px;
+  color: #eeeaff;
+}
+
+.dctext2 {
+  font-family: "Nirmala UI";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 49.5754px;
+  line-height: 66px;
+  color: #eeeaff;
+}
+
+.dctext3 {
+  font-family: "Nirmala UI";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 27px;
+  color: #eeeaff;
+}
+
+/* classes */
+.ctext {
+  font-family: "Nirmala UI";
+  font-style: normal;
+  font-weight: 350;
+  font-size: 30.2632px;
+  line-height: 56px;
+
+  /* 007 */
+
+  color: #2e303d;
+}
+
+.btn-black {
+  /* display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; */
+  padding: 8.6911px;
+  gap: 8.69px;
+  width: 126px;
+  height: 53.88px;
+  background: #141414;
+  border-radius: 6.95288px;
+}
+
+.ctext2 {
+  font-family: "Nirmala UI";
+  font-style: normal;
+  font-weight: 350;
+  font-size: 25px;
+  line-height: 48px;
+  color: #2e303d;
+}
+
+.chead {
+  width: 1215.72px;
+  height: 50.61px;
+  left: 434px;
+  top: 427.55px;
+  background: #45484e;
+  border-radius: 8.93691px;
+}
+
+tr th {
+  font-family: "Nirmala UI";
+  font-style: normal;
+  font-weight: 350;
+  font-size: 15.7084px;
+  line-height: 30px;
+  color: #ffffff;
+}
+
+.sucess-text {
+  font-family: "Nirmala UI";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 45.2547px;
+  line-height: 60px;
+  text-transform: capitalize;
+  color: #45484e;
+}
+
+.stext2 {
+  font-family: "Nirmala UI";
+  font-style: normal;
+  font-weight: 350;
+  font-size: 20px;
+  line-height: 20px;
+  color: #2e303d;
+}
+
+.mhead {
+  font-family: "Nirmala UI";
+  font-style: normal;
+  font-weight: 350;
+  font-size: 25px;
+  line-height: 33px;
+  color: #2e303d;
+}
+
+.mback {
+  /* display: flex; */
+  /* flex-direction: row;
+align-items: flex-start; */
+  /* gap: 30px; */
+  width: 500.64px;
+  height: 60.3px;
+  background: #45484e;
+  border-radius: 9.20944px;
+}
+
+.sback {
+  background: url("/Frame 143.png") no-repeat center center/cover;
+  width: 203px;
+  height: 203px;
+}
+
+.sbacktext {
+  font-family: "Nirmala UI";
+  font-style: normal;
+  font-weight: 350;
+  font-size: 30px;
+  line-height: 40px;
+  color: #fafafa;
+}
+
+.prhead {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 120%;
+  color: #000000;
+}
+
+.prhead2 {
+  font-family: "Nirmala UI";
+  font-style: normal;
+  font-weight: 350;
+  font-size: 33px;
+  line-height: 44px;
+  color: #45484e;
+}
+.bg-ad {
+  margin-left: 2rem;
+}

@@ -1,0 +1,108 @@
+.qaModal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; /* Updated: Justify center */
+  padding: 43px 46px;
+
+  width: auto;
+  height: 100%;
+
+  background: #fafafa;
+  border-radius: 5px;
+}
+
+.qaModalInner {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 3.5vh;
+}
+
+.qaAnswers {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  gap: 22px;
+
+  width: 48vw;
+  height: auto;
+}
+
+.qaAnswersAnswer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10.58px;
+
+  width: 100%;
+  height: auto;
+
+  /* Inside auto layout */
+
+  flex: none;
+  flex-grow: 0;
+}
+
+.qaAnswersAnswerDetails {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.2vw;
+  line-height: 120%;
+
+  color: #45484e;
+}
+
+.qaQuestion {
+  width: 60vw;
+  height: auto;
+
+  text-align: center;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 2vw;
+  line-height: 27px;
+  /* identical to box height */
+
+  text-transform: capitalize;
+
+  /* 005 */
+
+  color: #45484e;
+}
+
+.qaQuestionNumber {
+  width: auto;
+  height: auto;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 2.5vw;
+  line-height: 120%;
+  /* identical to box height, or 34px */
+
+  /* 002 */
+
+  color: #141414;
+}
+
+.notifyToSpeak {
+  color: red;
+  font-size: 1.7vw;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+}
+
+.wrapText {
+  word-wrap: break-word; /* For older browsers */
+  overflow-wrap: break-word; /* For modern browsers */
+}
